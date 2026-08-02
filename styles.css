@@ -1,0 +1,173 @@
+:root {
+    --bg-dark: #121824;
+    --card-bg: #1e293b;
+    --text-white: #ffffff;
+    --text-gray: #94a3b8;
+    --accent-blue: #3b82f6;
+    --alert-green: #10b981;
+    --alert-yellow: #f59e0b;
+    --alert-red: #ef4444;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #0f172a;
+    border-bottom: 2px solid #334155;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+}
+
+header p {
+    color: var(--text-gray);
+    margin: 0;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarjeta-formulario, .tarjeta-resultado {
+    background-color: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3 {
+    margin-top: 0;
+    color: var(--text-white);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    color: var(--text-white);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 1px solid #475569;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--text-gray);
+    padding: 0 10px;
+}
+
+.instruccion {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-top: 0;
+}
+
+.opcion-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.opcion-check input {
+    margin-top: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--accent-blue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+.oculta {
+    display: none;
+}
+
+.tarjeta-resultado {
+    text-align: center;
+    border: 2px solid #334155;
+    animation: fadeIn 0.4s ease;
+}
+
+.valor-ipa {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.texto-diagnostico {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.barra-color-contenedor {
+    width: 100%;
+    height: 12px;
+    background-color: #0f172a;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.barra-nivel {
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    margin-top: 40px;
+}
+
