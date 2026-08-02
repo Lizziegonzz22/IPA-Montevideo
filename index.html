@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IPA - Bioindicadores Montevideo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌱 Monitor Ambiental IPA</h1>
+        <p>Índice de Pureza Atmosférica a través de Líquenes en Montevideo</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="tarjeta-formulario">
+            <h2>Estación de Muestreo Bioindicador</h2>
+            
+            <label for="zona">Seleccione la zona de Montevideo:</label>
+            <select id="zona">
+                <option value="centro">Centro / Tres Cruces (Tránsito Alto)</option>
+                <option value="prado">El Prado (Humedad / Parques)</option>
+                <option value="carrasco">Carrasco (Zona Costera / Residencial)</option>
+                <option value="santiago">Santiago Vázquez (Área Protegida / Humedales)</option>
+            </select>
+
+            <fieldset>
+                <legend>Especies y Morfotipos de Líquenes Observados</legend>
+                <p class="instruccion">Marque los líquenes identificados en la cuadrícula del tronco:</p>
+                
+                <label class="opcion-check">
+                    <input type="checkbox" id="crustosos" value="10">
+                    <strong>Líquenes Crustosos (Tipo Costra):</strong> Alta tolerancia a la contaminación (gases de escape).
+                </label>
+
+                <label class="opcion-check">
+                    <input type="checkbox" id="foliosos" value="25">
+                    <strong>Líquenes Foliosos (Tipo Hoja):</strong> Tolerancia moderada. Requieren aire más limpio.
+                </label>
+
+                <label class="opcion-check">
+                    <input type="checkbox" id="fruticulosos" value="45">
+                    <strong>Líquenes Fruticulosos (Tipo Arbusto):</strong> Muy sensibles. Solo crecen en aire puro.
+                </label>
+            </fieldset>
+
+            <button id="btn-calcular">Calcular Pureza Atmosférica</button>
+        </section>
+
+        <section id="bloque-resultado" class="tarjeta-resultado oculta">
+            <h3>Reporte de Calidad del Aire</h3>
+            <div id="marcador-ipa" class="valor-ipa">0.0</div>
+            <p id="diagnostico" class="texto-diagnostico">Seleccione los datos para procesar el reporte.</p>
+            <div class="barra-color-contenedor">
+                <div id="barra-nivel" class="barra-nivel"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Proyecto Científico de Monitoreo Urbano - Montevideo, Uruguay</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
