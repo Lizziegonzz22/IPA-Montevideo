@@ -29,7 +29,7 @@ Un software interactivo de ciencia ciudadana y bioindicadores ambientales desarr
 
 ---
 
-##   Estructura del Repositorio
+##   Estructura del Proyecto
 
 El proyecto mantiene una arquitectura web frontend limpia y estándar:
 
