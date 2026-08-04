@@ -1,10 +1,10 @@
-# 🌱 IPA-Montevideo: Calculadora de Pureza Atmosférica Urbano
+#  IPA-Montevideo: Calculadora de Pureza Atmosférica Urbano
 
 Un software interactivo de ciencia ciudadana y bioindicadores ambientales desarrollado con **HTML5, CSS3 y JavaScript**. La aplicación permite calcular el Índice de Pureza Atmosférica (IPA) en las diferentes zonas y barrios de Montevideo, evaluando la frecuencia y morfología de los líquenes presentes en la corteza de los árboles urbanos para determinar la calidad del aire en tiempo real.
 
 | Estructura | Estilos | Lógica | Entorno |
 | :---: | :---: | :---: | :---: |
-| 🟧 **HTML5** | 🔷 **CSS3** | 🟨 **JavaScript** | 📱 **Responsive** |
+| **HTML5** | **CSS3** | **JavaScript** | **Responsive** |
 
 **PROBAR APLICACIÓN EN VIVO:** [Click aquí para abrir el Monitor Ambiental IPA](https://lizziegonzz22.github.io/IPA-Montevideo/)
 
