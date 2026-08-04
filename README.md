@@ -15,7 +15,6 @@ Un software interactivo de ciencia ciudadana y bioindicadores ambientales desarr
 *   [Características Principales](#características-principales)
 *   [Estructura del Proyecto](#estructura-del-proyecto)
 *   [¿Cómo Funciona el Sistema?](#cómo-funciona-el-sistema)
-*   [Compilación y Ejecución](#compilación-y-ejecución)
 *   [Modelado Científico Aplicado](#modelado-científico-aplicado)
 *   [Autor](#autor)
 
@@ -59,20 +58,6 @@ El software procesa los datos ingresados a través de tres etapas consecutivas:
 1.  **Entrada:** El usuario selecciona la zona urbana de Montevideo y tilda los líquenes observados en el tronco del árbol.
 2.  **Cálculo:** JavaScript asigna un peso biológico a cada especie (mayor puntaje a las más sensibles) y aplica un factor de corrección por polución vial según la zona elegida.
 3.  **Salida:** El DOM revela el cuadro de resultados y pinta la interfaz de acuerdo al rango: **Rojo** (Aire Malo / Menor a 15), **Amarillo** (Aire Moderado / 16 a 45) o **Verde** (Aire Excelente / Mayor a 45).
-
----
-
-##   Compilación y Ejecución
-
-Al ser un proyecto web nativo, **no requiere instalación de servidores ni consolas adicionales**.
-
-### Ejecución Local:
-1.  Descargá los archivos `index.html`, `styles.css` y `script.js` en una misma carpeta.
-2.  Hacé doble clic sobre el archivo `index.html`.
-3.  El proyecto se abrirá automáticamente en tu navegador web predeterminado (Chrome, Firefox, Safari, Edge).
-
-### Despliegue Online (GitHub Pages):
-Este proyecto está configurado para ejecutarse en la nube. Podés activar tu propio enlace web entrando a la pestaña **Settings > Pages** de este repositorio y seleccionando la rama `main` para guardar.
 
 ---
 
