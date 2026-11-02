@@ -2,6 +2,7 @@
 
 La aplicación permite calcular el Índice de Pureza Atmosférica (IPA) en zonas clave de Montevideo, evaluando la presencia y morfología de los líquenes en la corteza de los árboles. 
 
+**PROBAR APLICACIÓN:** [Monitor Ambiental IPA](https://lizziegonzz22.github.io/IPA-Montevideo/)
 ---
 
 ## Índice de Contenidos
